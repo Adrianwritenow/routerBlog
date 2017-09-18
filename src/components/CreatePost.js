@@ -63,6 +63,7 @@ export default class CreatePost extends Component {
     render() {
       return (
           <div className="blogForm">
+          <h1 className="headings">NEW POST</h1>
             <label htmlFor="authorsName"></label>
             <div className="formInput">
               <input  onChange={this.handleAuthorsName}

@@ -17,12 +17,14 @@ class List extends Component {
     return (
       <div className="row">
         <div className="col-lg-10 col-lg-offset-1">
-          <h1 className="headings">POSTS</h1>
           <hr/>
         </div>
-        <div className="listContainer">
-          {List}
-        </div>
+          <div className="titleWrap">
+          <h1 className="headings">POSTS</h1>
+          </div>
+          <div className="listContainer">
+            {List}
+          </div>
       </div>
     )
   }

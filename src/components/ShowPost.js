@@ -49,7 +49,7 @@ class ShowPost extends Component {
   render() {
     return (
       <div className="app-body offset col-lg-10 col-lg-offset-1">
-        <div className="row">
+        <div className="rowDetail">
           <div className="col-lg-8 col-lg-offset-2">
               <h1>Message Details</h1>
           </div>

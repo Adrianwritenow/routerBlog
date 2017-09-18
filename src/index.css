@@ -10,6 +10,9 @@ body {
  }
 .blogForm{
   background-color: cadetblue;
+  margin-top: 140px;
+  width:800px;
+  margin-left: 235px;
 }
 
 .frog {
@@ -23,7 +26,7 @@ body {
   -webkit-animation: neon 1s ease infinite;
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  margin-top: 190px;
 
 }
 
@@ -45,14 +48,14 @@ body {
 
 .btn-primary{
   font-family: 'Roboto';
-  background-color: #40A336;
+  background-color: #F40A35;
   padding: 20px;
 }
 
 .btn-primary:hover {
     color: #F40A35;
     background-color: #00003E;
-    border-color: #01549b;
+    border-color: #F40A35;
 }
 .listContainer{
   display: flex;
@@ -97,4 +100,73 @@ h1{
   -webkit-animation: neon 1s ease infinite;
   font-size: 4vw;
 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+body{
+	background: #121211;
+}
+.nav{
+    margin: 6% 17%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 285px;
+}
+ul{
+	text-align: center;
+	word-spacing: -0.2em;
+	background-image: -moz-linear-gradient(top,#93cec9,#d3f8f4);
+    border-radius: 120px;
+	-moz-box-sizing: border-box;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+ul li{
+display: inline-block;
+background:transparent;
+-moz-transition: all .5s;
+padding: 20px 36px;
+}
+.last{
+	border-radius: 0px 120px 120px 0 ;
+
+}
+.first{
+	border-radius: 120px 0px 0px 120px ;
+}
+li:hover{
+	background: #66b2ab;
+	box-shadow: inset 0px 0px 2px 2px #327670;
+    color: #FFF;
+}
+a{
+	text-decoration: none;
+    font-size: 2em;
+    color: #119da3;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+a:hover{
+   color: #FFF;
+}
+.titleWrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+margin-left: 560px;
+}
+
+.rowDetail{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 262px;
+}
+.col-lg-offset-2>h1{
+  text-align: center;
+}
+
+.blogForm>h1{
+  text-align: center;
 }
